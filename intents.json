@@ -1,0 +1,151 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello",
+        "Hi there!",
+        "Hi there, what can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "Baics",
+      "patterns": [
+        "What is a novel coronavirus",
+        "What is covid-19",
+        "What is corona"
+      ],
+      "responses": [
+        "A novel coronavirus is a new coronavirus that has not been previously identified. The virus causing coronavirus disease 2019 (COVID-19), is not the same as the coronaviruses that commonly circulate among humans and cause mild illness, like the common cold",
+        "Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.",
+        "Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.  Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness."
+
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What is the symptoms of corona,covid-19,coronavirus?",
+        "Symptoms of covid-19?",
+        "common symptoms of corona?",
+        "serious symptoms of corona?"
+      ],
+      "responses": [
+        "Most common symptoms of corona: fever, dry cough, tiredness. Seek immediate medical attention if you have serious symptoms.  Always call before visiting your doctor or health facility. \nLess common symptoms of corona: aches and pains, sore throat, diarrhoea, conjunctivitis, headache, loss of taste or smell, a rash on skin, or discolouration of fingers or toes. People with mild symptoms who are otherwise healthy should manage their symptoms at home. \nSerious symptoms of corona: difficulty breathing or shortness of breath, chest pain or pressure,loss of speech or movement. Seek immediate medical attention if you have serious symptoms.  Always call before visiting your doctor or health facility. "
+      ]
+    },
+
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How to prevent from coronavirus?",
+        "how to escape from covid-19?",
+        "what is precautions take for corona?"
+      ],
+      "responses": [
+        "To prevent infection and to slow transmission of COVID-19, do the following:\nWash your hands regularly with soap and water, or clean them with alcohol-based hand rub.\nMaintain at least 1 metre distance between you and people coughing or sneezing.\nAvoid touching your face.\nCover your mouth and nose when coughing or sneezing.\nStay home if you feel unwell.\nRefrain from smoking and other activities that weaken the lungs.\nPractice physical distancing by avoiding unnecessary travel and staying away from large groups of people. "
+      ]
+    },
+    {
+      "tag": "immunity",
+      "patterns": [
+        "How to boost immunity?",
+        "how to increse immunity?",
+        "ways for immunity increase?"
+      ],
+      "responses": [
+        "Here are six things you can do to help boost your immunity naturally:\n1. Drink plenty of fluids \n2. Exercise regularly.\n3. Stress less. \n4. Get a good night's sleep\n5. Eat foods with probiotics \n6. Eat a well-balanced diet "
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "Why is the disease being called coronavirus disease 2019, COVID-19?  ",
+        "Why the name is coronavirus?",
+        "Explain the meaning of COVID-19."
+      ],
+      "responses": [
+        "On February 11, 2020 the World Health Organization announced an official name for the disease that is causing the 2019 novel coronavirus outbreak, first identified in Wuhan China. The new name of this disease is coronavirus disease 2019, abbreviated as COVID-19. In COVID-19, ‘CO’ stands for ‘corona,’ ‘VI’ for ‘virus,’ and ‘D’ for disease. Formerly, this disease was referred to as “2019 novel coronavirus” or “2019-nCoV”.\nThere are many types of human coronaviruses including some that commonly cause mild upper-respiratory tract illnesses. COVID-19 is a new disease, caused by a novel (or new) coronavirus that has not previously been seen in humans."
+      ]
+    },
+    {
+      "tag": "spread",
+      "patterns": [
+        "How does the virus spread?  ",
+        "how coronavirus spread?",
+        "COVID-19 spread."
+      ],
+      "responses": [
+        "The virus that causes COVID-19 most commonly spreads between people who are in close contact with one another (within about 6 feet, or 2 arm lengths).\nIt spreads through respiratory droplets or small particles, such as those in aerosols, produced when an infected person coughs, sneezes, sings, talks, or breathes. ",
+        "Droplets can also land on surfaces and objects and be transferred by touch. A person may get COVID-19 by touching the surface or object that has the virus on it and then touching their own mouth, nose, or eyes. Spread from touching surfaces is not thought to be the main way the virus spreads.",
+        "It is possible that COVID-19 may spread through the droplets and airborne particles that are formed when a person who has COVID-19 coughs, sneezes, sings, talks, or breathes. There is growing evidence that droplets and airborne particles can remain suspended in the air and be breathed in by others, and travel distances beyond 6 feet (for example, during choir practice, in restaurants, or in fitness classes). In general, indoor environments without good ventilation increase this risk."
+      ]
+    },
+    {
+      "tag": "community",
+      "patterns": [
+        "What is community spread?  ",
+        "community spread of coronvirus",
+        "COVID-19 in community spread."
+      ],
+      "responses": [
+        "Community spread means people have been infected with the virus in an area, including some who are not sure how or where they became infected. Each health department determines community spread differently based on local conditions. For information on community spread in your area, please visit your health department’s website."
+      ]
+    },
+    {
+      "tag": "children",
+      "patterns": [
+        "What is the risk of my child becoming sick with coronavirus/COVID-19"
+
+      ],
+      "responses": [
+        "Children can be infected with the virus that causes COVID-19 and can get sick with COVID-19. Most children with COVID-19 have mild symptoms or they may have no symptoms at all (“asymptomatic”). Fewer children have been sick with COVID-19 compared to adults. However, children with certain underlying medical conditions and infants (less than 1 year old) might be at increased risk for severe illness from COVID-19. Some children have developed a rare but serious disease that is linked to COVID-19 called multisystem inflammatory syndrome (MIS-C)."
+      ]
+    },
+    {
+      "tag": "testing",
+      "patterns": [
+        "Can someone test negative and later test positive on a viral test for COVID-19, coronavirus?"
+
+      ],
+      "responses": [
+        "Yes, it is possible. You may test negative if the sample was collected early in your infection and test positive later during this illness. You could also be exposed to COVID-19 after the test and get infected then. Even if you test negative, you still should take steps to protect yourself and others. See Testing for Current Infection for more information."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
