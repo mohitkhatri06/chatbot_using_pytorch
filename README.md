@@ -1,5 +1,3 @@
-# chatbot_using_pytorch
-
 ### Contextual Chatbot in PyTorch. Simple chatbot implementation with PyTorch.
 
 This bot is trained on json file intents. Customization of intents can be done. Just modify intents.json with possible patterns and responses and re-run the training.
